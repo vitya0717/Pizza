@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/pizzak/static/css/main.f96f07a4.css",
-    "main.js": "/pizzak/static/js/main.061b4355.js",
-    "index.html": "/pizzak/index.html",
-    "main.f96f07a4.css.map": "/pizzak/static/css/main.f96f07a4.css.map",
-    "main.061b4355.js.map": "/pizzak/static/js/main.061b4355.js.map"
+    "main.css": "/Pizza/static/css/main.f96f07a4.css",
+    "main.js": "/Pizza/static/js/main.061b4355.js",
+    "index.html": "/Pizza/index.html",
+    "main.f96f07a4.css.map": "/Pizza/static/css/main.f96f07a4.css.map",
+    "main.061b4355.js.map": "/Pizza/static/js/main.061b4355.js.map"
   },
   "entrypoints": [
     "static/css/main.f96f07a4.css",
