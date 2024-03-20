@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Navbar pizzak={pizzak} setPizzak={setPizzak} setFetchPending={setFetchPending} isFetchPending={isFetchPending} />
         <Routes>
-          <Route path={"/"} element={<Pizzak pizzak={pizzak} setPizzak={setPizzak} setSelectedPizza={setSelectedPizza} setFetchPending={setFetchPending} isFetchPending={isFetchPending}/>} />
+          <Route path={"/Pizza"} element={<Pizzak pizzak={pizzak} setPizzak={setPizzak} setSelectedPizza={setSelectedPizza} setFetchPending={setFetchPending} isFetchPending={isFetchPending}/>} />
           <Route path={"/ujPizza"} element={<PizzaPost pizzak={pizzak} setPizzak={setPizzak} setFetchPending={setFetchPending}/>} />
           <Route path={"/pizzaFrissit/:id"} element={<PizzaPut selectedPizza={selectedPizza} setSelectedPizza={setSelectedPizza} setFetchPending={setFetchPending} isFetchPending={isFetchPending}/>} />
           <Route path={"/pizza/:id"} element={<PizzaSelect selectedPizza={selectedPizza} setSelectedPizza={setSelectedPizza} />} />
