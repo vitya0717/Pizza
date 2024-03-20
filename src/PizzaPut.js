@@ -57,7 +57,7 @@ export const PizzaPut = ({ setFetchPending, selectedPizza, setSelectedPizza }) =
         console.log(updateData);
         await axios.put(`https://pizza.kando-dev.eu/Pizza/${param.id}`, updateData).then(async () => {
           await setFetchPending(true);
-          navigate('/');
+          navigate('/Pizza');
         });
 
       }}>

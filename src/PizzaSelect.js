@@ -26,7 +26,7 @@ export const PizzaSelect = ({ selectedPizza, setSelectedPizza }) => {
                     <div className='spinner-border text-danger' />
                 </div> :
                     <div key={selectedPizza.id} className="card m-3" style={{ width: '18rem' }}>
-                        <Link to={`/`}> <img src={selectedPizza.kepURL ? selectedPizza.kepURL : 'https://via.placeholder.com/200'} className="card-img-top p-3" alt="A píza képe xd" /></Link>
+                        <Link to={`/Pizza`}> <img src={selectedPizza.kepURL ? selectedPizza.kepURL : 'https://via.placeholder.com/200'} className="card-img-top p-3" alt="A píza képe xd" /></Link>
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title">{selectedPizza.name}</h5>
                             <p className="card-text">Glutén mentes: {selectedPizza.isGlutenFree ? "Igen" : "Nem"}</p>

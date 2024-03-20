@@ -22,7 +22,7 @@ export const PizzaPost = ({setFetchPending}) => {
                 }
                 await axios.post('https://pizza.kando-dev.eu/Pizza', postData).then(async () => {
                     await setFetchPending(true);
-                    navigate('/');
+                    navigate('/Pizza');
                 });
 
             }}>
